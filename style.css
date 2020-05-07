@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+
+}
+.firstbar {
+    background-color: #1b1333;
+}
+.para {
+    font-size: small;
+    text-align: center;
+    align-items: center;
+    
+}
+.btn {
+    border-radius: 8px;
+    font-size: 14px;
+    border: 2px solid #008CBA;
+    color: green;
+}
+.logo {
+    width: 180px;
+    margin-top: 15px;
+}
+.navbar 
+{
+    background-color: rgb(53, 52, 30);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right,khaki,rgb(124, 82, 42));
+    position: sticky;
+    top: 0px;
+}
+.logo{
+    flex: 1px;
+}
+.menu-bar{
+    flex:6px ;
+}
+.menu-bar 
+{
+    display: flex;
+    justify-content: right;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16;
+    margin-top: 18px;
+    padding: 0;
+    width: min-content;
+   
+}
+
+
+.menu-bar ul  
+{
+    display: inline-flex;
+    list-style: none;
+    color: rgb(6, 37, 5);
+    
+
+}
+.menu-bar ul li
+{
+width: 120px;
+margin: 1px;
+padding: 5px;
+
+}
+.menu-bar ul li a
+{
+text-decoration: none;
+color: rgb(6, 37, 5);
+}
+.active, .menu-bar ul li:hover 
+{
+background-color: #ecd7ae;
+border-radius: 10px;
+opacity: 90%;
+box-shadow: 10px 5px 20px 0px rgb(255, 251, 5);
+
+}
+.menu-bar .fa 
+{
+    margin-right: 4px;
+}
+.submenu1
+{
+    display: none;
+}
+.menu-bar ul li:hover .submenu1
+{
+    display: block;
+    position: absolute;
+    background-color: rgb(230, 214, 126);
+    margin-top: 20px;
+    margin-left: -15px;
+    border-radius:20px; 
+    width: fit-content;
+}
+.menu-bar ul li:hover .submenu1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .submenu1 ul li
+{
+width: 140px;
+padding: 10px;
+border-bottom: 1px dotted #fff;
+background: transparent;
+border-radius: 0;
+text-align: left;
+}
+.menu-bar ul li:hover .submenu1 ul li:last-child
+{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .submenu1 ul li a:hover
+{
+color: #b2ff00;
+}
+
+.fa-angle-right
+{
+    float: right;
+}
+.submenu2
+{
+    display: none;
+}
+.hoverme:hover .submenu2
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 120px;
+    background-color: rgb(226, 188, 170);
+    border-radius:20px;
+}
+
+.navbar {
+Z-index: 1;
+clear: both;
+}
+
+.markleft {
+    background-color: #000000;
+    background-position: center;
+    color: white;
+}
+.baseline
+{
+width: 30px;
+background-color: darkgreen;
+height: 2px;
+display: inline-block;
+border-bottom: 1px solid rgb(26, 13, 207);
+
+}
+
+p 
+{
+
+    text-align: justify;
+    padding: 20px;
+    text-align: justify;
+    align-items: center;
+  
+}
+.marquee1{
+
+    background-image: linear-gradient(to right,khaki,rgb(124, 82, 42));
+}
+.intro {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
+    font-weight: bolder;
+}
+.Introduction {
+    height: 650px;
+    background-image: linear-gradient(to bottom,khaki,gray);
+    overflow: hidden;
+}
+.foodicon {
+    width: 50px;
+}
+.counter
+{
+    background-color: rgb(60, 40, 233);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.wwda {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 15px;
+    
+}
+
+.wwdapart img {
+    width: 70px;
+    padding: 5px;
+    
+}
+.wwdapart {
+    
+    padding: 10px;
+}
+ .box {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 5px 5px 20px 5px rgb(219, 185, 250);
+    border-radius: 8px;
+}
+h5 {
+    padding: 8px;
+}
+#mark li {
+    font-style: normal;
+    color: rgb(230, 69, 69);
+    font-family: monospace;
+    font-weight: lighter;
+}
+.mission-events{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.upcoming {
+    border-bottom: 2px solid rgb(92, 63, 63);
+}
+
+.mission-events marquee {
+    height: 200px;
+    background-color: white;
+}
+.igallery {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 5px 5px 20px 5px rgb(170, 109, 81);
+    border-radius: 20px;
+}
+
+
+.igallery img {
+    border: 2px solid rgb(175, 135, 84);
+    box-shadow: 5px 5px 20px 5px rgb(252, 194, 194);
+
+
+}
+.contact {
+    display: block;
+    float: left;
+}
+
+.footer
+{
+    border-radius: 15px;
+}
+
+
